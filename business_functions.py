@@ -1,14 +1,14 @@
 import uuid
-def processRefund(refundRequest):
-    #Refund Processing
-    orderNumber = refundRequest['orderNumber']
-    refundID = uuid.uuid4()
-    return f"Refund For {orderNumber} processed successfully. Refund Reference {refundID}"
+def processMedHCP(refundRequest):
+    #Medicine Processing
+    diseaseName = refundRequest['diseaseName']
+    medID = uuid.uuid4()
+    return f"Refund For {diseaseName} processed successfully. Refund Reference {medID}"
 
-def processReturn(returnRequest):
-    orderNumber = returnRequest['orderNumber']
-    returnID = uuid.uuid4()
-    return f"Return For {orderNumber} initiated successfully. Return Reference {returnID}"
+def processMovieAnalyst(returnRequest):
+    movieName = returnRequest['movieName']
+    movieID = uuid.uuid4()
+    return f"Return For {movieName} initiated successfully. Return Reference {movieID}"
 nofunctionsArr = []
 functionsArr = [
         {

@@ -12,6 +12,7 @@ import business_functions  # Import your business functions module
 parent_dir = os.path.dirname(os.path.abspath(__file__))
 persona_dir = os.path.join(parent_dir, "personas")
 
+# get persona from the added ones
 persona1_json = os.path.join(persona_dir, "Movie_analyst_1.json")
 persona2_json = os.path.join(persona_dir, "medical_persona_1.json")
 
