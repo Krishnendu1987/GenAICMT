@@ -40,6 +40,8 @@ def format_persona_context(persona):
     {conversationwith}
     {traits}
     Goal of this conversation for you: {goal}
+    Skill of you: {skills}
+    Topics you must avoid : {avoided_topics}
     Reply based on conversation history provided in 'Context:'
     Reply with prefix '{chatname}:'
     Respond with {responselength} words max.
